@@ -22,12 +22,7 @@
     "jest": "^30.2.0",
     "lint-staged": "^16.2.6"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "post-commit": "npm run success-message"
-    }
-  },
+ 
   "lint-staged": {
     "*.js": [
       "eslint",
