@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "prepare": "husky",
-    "lint": "eslint src/**"
+    "lint": "eslint src/**",
+    "lint-init": "eslint --init"
   },
   "keywords": [],
   "author": "",
@@ -14,9 +15,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@eslint/js": "^9.39.1",
-    "eslint": "^8.57.1",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.32.0",
+    "eslint": "^9.39.1",
     "globals": "^16.5.0",
     "husky": "^9.1.7",
     "jest": "^30.2.0"
